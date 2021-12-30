@@ -27,10 +27,6 @@ async def on_ready():
   print("Bot is Ready")
 
 
-
-
-
-
 @client.event
 async def on_message(msg):
   for word in filtered_words:

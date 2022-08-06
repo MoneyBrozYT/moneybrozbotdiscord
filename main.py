@@ -21,7 +21,7 @@ client = commands.Bot(command_prefix="!")
 
 players = {}
 
-filtered_words = ["Bitch"]
+
 @client.event
 async def on_ready():
   print("Bot is Ready")
